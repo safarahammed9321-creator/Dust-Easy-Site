@@ -195,7 +195,15 @@
               <h2 id="quote-title">Ready for a spotless space?</h2>
               <p>Book professional cleaning for your home, apartment, office, rental unit, or business.</p>
             </div>
-            <form class="quote-form" aria-label="Cleaning quote form">
+            <form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  class="quote-form"
+  aria-label="Cleaning quote form"
+>
+
+<input type="hidden" name="form-name" value="contact">
               <label>
                 <span>Name</span>
                 <input type="text" name="name" autocomplete="name" placeholder="Your name">
